@@ -11,7 +11,7 @@ button {
     padding: 5px 25px;
     color:#E5E7EB;
     font-weight: bold;
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 10px 0px;
 }
 
@@ -36,7 +36,7 @@ a {
 /* Start of hero styling */
 .hero {
     display: flex;
-    padding: 25px 450px;
+    padding: 100px 450px;
     justify-content: space-between;
 }
 
@@ -101,6 +101,33 @@ a {
     margin: 15px;
 }
 /* End of testimonial */
+
+/* Start of call to action */
+.action-section {
+    padding: 50px 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-bubble {
+    padding: 50px 150px;
+    border-radius: 12px;
+    color:#F9FAF8;
+    display: flex;
+}
+
+.action-bubble button {
+    border-color:#F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 50px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* End of call to action */
 
 /* Start of background colors */
 .header, .hero, .footer {
