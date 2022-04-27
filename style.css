@@ -129,6 +129,16 @@ a {
 }
 /* End of call to action */
 
+/* Start of footer */
+.footer {
+    color:#F9FAF8;
+    padding: 50px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of footer */
+
 /* Start of background colors */
 .header, .hero, .footer {
     background-color: #1F2937;
