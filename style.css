@@ -15,21 +15,72 @@ button {
     margin: 10px 0px;
 }
 
+/* Start of background colors */
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.action-bubble, button {
+    background-color: #3882F6;
+}
+/* End of background colors */
+
+/* Start of font styling */
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+a{
+    color: #E5E7EB;
+}
+/* End of font styling */
+
 /* Start of header styling */
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 25px 450px;
 }
 
 ul {
     display: flex;
     list-style: none;
+    margin: 0px;
 }
 
 a {
     text-decoration: none;
-    margin: 10px;
+    margin: 0px 10px;
 }
 /* End of header styling */
 
@@ -50,6 +101,7 @@ a {
     color: #E5E7EB;
     min-width: 400px;
     height: 200px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,51 +191,3 @@ a {
 }
 /* End of footer */
 
-/* Start of background colors */
-.header, .hero, .footer {
-    background-color: #1F2937;
-}
-
-.testimonial {
-    background-color: #E5E7EB;
-}
-
-.action-bubble, button {
-    background-color: #3882F6;
-}
-/* End of background colors */
-
-/* Start of font styling */
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.hero-main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.hero-subtext {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.information-header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-}
-
-.quote {
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    color: #1F2937;
-}
-
-a{
-    color: #E5E7EB;
-}
-/* End of font styling */
