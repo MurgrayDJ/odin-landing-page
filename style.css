@@ -88,6 +88,19 @@ a {
 }
 /* End of information section */
 
+/* Start of testimonial */
+.testimonial {
+    padding: 150px 550px;
+}
+
+.quote-giver {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin: 15px;
+}
+/* End of testimonial */
 
 /* Start of background colors */
 .header, .hero, .footer {
