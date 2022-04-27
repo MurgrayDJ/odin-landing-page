@@ -2,12 +2,24 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
+button {
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    color:#E5E7EB;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+
+/* Start of header styling */
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 25px 450px;
 }
 
 ul {
@@ -19,6 +31,30 @@ a {
     text-decoration: none;
     margin: 10px;
 }
+/* End of header styling */
+
+/* Start of hero styling */
+.hero {
+    display: flex;
+    padding: 25px 450px;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 450px;
+}
+
+.hero-image {
+    background-color: #54565a;
+    color: #E5E7EB;
+    min-width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End of hero styling */
 
 /* Start of background colors */
 .header, .hero, .footer {
